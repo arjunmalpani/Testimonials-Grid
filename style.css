@@ -138,22 +138,10 @@ body {
 
 /* Special */
 .testimonial:nth-child(1){
-  background: var(--card-clr-violet);
-}
-.quote{
-  position: relative;
-  #quote-img{
-    position: absolute;
-    border: none;
-    height: 35%;
-    right: 10%;
-    top: 0px;
-    z-index: 0;
-  }
-  .review-bold{
-    position: relative;
-    z-index: 1;
-  }
+  background: url(./images/bg-pattern-quotation.svg),var(--card-clr-violet);
+  background-repeat: no-repeat;
+  background-position: 85% 0%  ;
+  background-size: 120px;
 }
 .testimonial:nth-child(2){
   background: var(--card-clr-greyblue);
